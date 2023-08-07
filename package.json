@@ -1,0 +1,24 @@
+{
+  "name": "diagnostico",
+  "version": "1.0.0",
+  "description": "Este es un ejercicio básico para practicar el uso de EJS en un proyecto de Node.js. El objetivo del ejercicio es utilizar una base de código proporcionada previamente en un archivo zip, iniciar un proyecto de Git, hacer un primer commit con dicha base de código y luego mostrar una lista de posts en una vista utilizando EJS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "semistandard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "semistandard"
+  }
+}
